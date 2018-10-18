@@ -1,0 +1,65 @@
+body{
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1.logo{
+  color: #fff;
+}
+h1.logo small{
+  font-size: 0.4em;
+  font-style: italic;
+}
+.lateral-izq a{
+  color: rgb(144,0,7);
+}
+nav{
+  margin-bottom: 15px;
+}
+nav ul li:hover{
+  background: rgba(144,0,7,0.3);
+}
+.grid-container{
+  background: rgba(144,0,7,0.5);
+}
+.lateral-izq,
+.blog-container{
+  margin-bottom: 15px;
+}
+.blog-container{
+  padding-top: 15px;
+  background: rgba(255,255,255,0.7);
+}
+.blog-container h2{
+  color: rgb(144,0,7);
+}
+.blog-container h6{
+  font-size: 0.7em;
+}
+.blog-container p{
+  border-bottom: 1px solid rgba(144,0,7,0.7);
+  padding-bottom: 15px;
+}
+
+.favoritos-container,
+.buscar-container,
+.historial-container,
+.navegacion-container{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  background: rgba(255,255,255,0.7);
+}
+.media-object .thumbnail img{
+  width: 30px;
+}
+.button{
+  background: rgb(144,0,7);
+}
+.button:hover{
+  background: rgba(144,0,7,0.7);
+}
+.comentarios p{
+  font-size: 0.8em;
+}

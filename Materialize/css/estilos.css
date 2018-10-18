@@ -1,0 +1,72 @@
+body{
+  background: #e65100;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 150px;
+}
+header{
+  height: 150px;
+  margin-top: 15px;
+}
+h1{
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+h2{
+  text-shadow: -2px 2px 2px #000;
+}
+h3{
+  text-shadow: -2px 2px 2px #000;
+  text-transform: uppercase;
+}
+h4{
+  text-shadow: 1px -1px 2px #fff;
+  text-transform: uppercase;
+}
+nav{
+  background: transparent;
+  box-shadow: 0 0 0 0;
+}
+nav .sidenav-trigger{
+  float: right;
+}
+nav .sidenav-trigger i{
+  font-size: 4em;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.logo img{
+  width: 180px;
+  position: absolute;
+}
+.slogan{
+  color: #fff;
+  text-shadow: -1px -1px 2px #000;
+}
+.redes-sociales img{
+  width: 50%;
+  margin-bottom: 15px;
+}
+.blog-item,
+.autor{
+    padding: 15px;
+}
+.blog-item p img{
+  float: left;
+  margin-right: 30px;
+}
+
+.input-field input[type=text],
+.input-field input[type=email],
+.input-field textarea[id=textarea1],
+.input-field label{
+  border-color: #fff;
+}
+.autor img{
+  width: 50%;
+  margin-top: 15px; 
+}
